@@ -1,0 +1,41 @@
+{
+ "id": "tagmar1e",
+ "title": "Tagmar 1ª Edição (não oficial)",
+ "description": "Ficha e rolagens para o RPG Tagmar, 1ª edição (1991): Tabela de Resolução, ataque x defesa, dano, críticos, absorção de armadura e habilidades.",
+ "version": "0.3.1",
+ "compatibility": {
+  "minimum": "13",
+  "verified": "14"
+ },
+ "url": "https://github.com/claezius/tagmar1e-foundry",
+ "manifest": "https://github.com/claezius/tagmar1e-foundry/releases/latest/download/system.json",
+ "download": "https://github.com/claezius/tagmar1e-foundry/releases/latest/download/system.zip",
+ "bugs": "https://github.com/claezius/tagmar1e-foundry/issues",
+ "esmodules": [
+  "tagmar1e.mjs"
+ ],
+ "styles": [
+  "styles/tagmar.css"
+ ],
+ "documentTypes": {
+  "Actor": {
+   "personagem": {},
+   "npc": {}
+  },
+  "Item": {
+   "habilidade": {},
+   "arma": {},
+   "armadura": {},
+   "raca": {},
+   "profissao": {}
+  }
+ },
+ "primaryTokenAttribute": "eh",
+ "secondaryTokenAttribute": "ef",
+ "grid": {
+  "distance": 1,
+  "units": "m"
+ },
+ "socket": false,
+ "flags": {}
+}
